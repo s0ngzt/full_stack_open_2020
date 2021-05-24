@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/bloglist
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkRkZCIsImlkIjoiNWY2NzA5Yjk5NjUyZjgzNDQ4NmJmOTdlIiwiaWF0IjoxNjAwNTg4MjM2fQ.vpFMJ0kVlAfLilmnU2BKvXrhlxL0QHpqF1r9VDkEDVg
+
+{
+    "title": "test delete",
+    "author": "5f6709b99652f834486bf97e",
+    "url": "www.baidu.com/delete",
+    "likes": 400
+}

@@ -1,0 +1,28 @@
+{
+  "name": "webpack_part7",
+  "version": "0.0.1",
+  "description": "practising webpack",
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "watch": "webpack --watch",
+    "server": "json-server --watch db.json --port 3001"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "json-server": "^0.16.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

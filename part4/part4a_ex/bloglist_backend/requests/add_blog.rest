@@ -1,0 +1,9 @@
+POST http://localhost:3001/api/bloglist
+Content-Type: application/json
+
+{
+    "title": "test 03",
+    "author": "no",
+    "url": "www.baidu.com",
+    "likes": 4
+}

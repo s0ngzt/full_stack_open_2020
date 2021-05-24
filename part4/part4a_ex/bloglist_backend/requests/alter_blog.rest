@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/bloglist/5f630507e590af35a0b06d60
+Content-Type: application/json
+
+{
+    "title": "test 01",
+    "author": "no",
+    "url": "www.google.com",
+    "likes": 4
+}
